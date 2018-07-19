@@ -3,6 +3,6 @@ SET distPath=dist\personal-site
 
 xcopy /s/y %distPath% %projectPath%
 
-git --git-dir "%projectPath%.git" add .
-git --git-dir "%projectPath%.git" commit -m "Trigger rebuild"
+REM git --git-dir "%projectPath%.git" add %projectPath%
+git --git-dir "%projectPath%.git" commit -am "Trigger rebuild"
 git --git-dir "%projectPath%.git" push

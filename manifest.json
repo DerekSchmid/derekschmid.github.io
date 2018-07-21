@@ -1,0 +1,31 @@
+{
+  "name": "Derek Schmid Personal Site",
+  "short_name": "DSPS",
+  "description": "A site for testing Angular",
+  "icons": [
+    {
+      "src": "assets/myAvatar.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/myAvatar.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/myAvatar.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/myAvatar.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#673ab7"
+}
